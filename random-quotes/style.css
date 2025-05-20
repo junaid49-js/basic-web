@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: antiquewhite;
 }
 
 .quote{
@@ -21,18 +22,23 @@
     gap: 1rem;
     padding: 2rem;
     border-radius: 2rem;
+    background-color: burlywood;
 }
 
 p{
     font-size:x-large;
     text-align: center;
+    color: hsl(45, 3%, 28%);
 }
 
 h4{
     font-size: medium;
+    color: hsla(36, 3%, 28%, 0.527);
 }
 
 button{
     padding: 0.5rem;
     border-radius: 0.75rem;
+    background-color: antiquewhite;
+    border: none;
 }
