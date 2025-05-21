@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <div>
+    <div class="container">
+        <div class="to-do-app">
              <h1>To Do List</h1>
-             <div>
-                <input type="text" placeholder="Enter a task">
-                <button>Add</button>
+             <div class="input-box">
+                <input type="text" placeholder="Enter a task" id="input-field">
+                <button id="input-button">Add</button>
              </div>
              <ol>
-                <div>
-                    <li>Task 1</li>
-                    <button>Delete</button>
+                <div class="tasks">
+                    <li class="task">Task 1</li>
+                    <button class="delete-task">Delete</button>
                 </div>
-                <div>
-                    <li>Task 2</li>
-                    <button>Delete</button>
+                <div class="tasks">
+                    <li class="task">Task 2</li>
+                    <button class="delete-task">Delete</button>
                 </div>
-                <div>
-                    <li>Task 3</li>
-                    <button>Delete</button>
+                <div class="tasks">
+                    <li class="task">Task 3</li>
+                    <button class="delete-task">Delete</button>
                 </div>
              </ol>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
