@@ -1,0 +1,39 @@
+html,body{
+    margin: 0;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.container{
+    height: calc(100vh - 106px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.clock{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+span{
+    font-size: 80px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.dots{
+    color: brown;
+}
+.time{
+    background-color: brown;
+    color: white;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
